@@ -1,0 +1,178 @@
+[
+  {
+    "saas_tool": {
+      "name": "Google Drive",
+      "url": "https://drive.google.com/",
+      "description": "Cloud file storage and synchronization"
+    },
+    "alternative": {
+      "name": "Nextcloud",
+      "url": "https://nextcloud.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "nextcloud",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["file-storage", "sync", "collaboration"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Dropbox",
+      "url": "https://www.dropbox.com/",
+      "description": "File hosting and synchronization service"
+    },
+    "alternative": {
+      "name": "Seafile",
+      "url": "https://www.seafile.com/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": true,
+        "image": "seafileltd/seafile-mc",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["file-storage", "sync", "enterprise"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "OneDrive",
+      "url": "https://onedrive.live.com/",
+      "description": "Microsoft's cloud file storage"
+    },
+    "alternative": {
+      "name": "Pydio Cells",
+      "url": "https://pydio.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "pydio/cells",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["file-storage", "sync", "secure"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Box",
+      "url": "https://www.box.com/",
+      "description": "Enterprise file sharing and storage"
+    },
+    "alternative": {
+      "name": "FileBrowser",
+      "url": "https://filebrowser.org/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "filebrowser/filebrowser",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["file-browser", "webdav", "storage"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Amazon S3",
+      "url": "https://aws.amazon.com/s3/",
+      "description": "Object storage service"
+    },
+    "alternative": {
+      "name": "MinIO",
+      "url": "https://min.io/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "minio/minio",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["object-storage", "s3-api", "cloud"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Google Photos",
+      "url": "https://photos.google.com/",
+      "description": "Photo storage and organization"
+    },
+    "alternative": {
+      "name": "PhotoPrism",
+      "url": "https://photoprism.app/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "photoprism/photoprism",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["photos", "ai", "album"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "iCloud Drive",
+      "url": "https://www.icloud.com/intl/en-us/features/",
+      "description": "Apple's cloud storage service"
+    },
+    "alternative": {
+      "name": "Syncthing",
+      "url": "https://syncthing.net/",
+      "license": "MPL-2.0",
+      "docker": {
+        "official": false,
+        "image": "linuxserver/syncthing",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["sync", "p2p", "decentralized"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "MongoDB Atlas",
+      "url": "https://www.mongodb.com/cloud/atlas",
+      "description": "Cloud MongoDB database service"
+    },
+    "alternative": {
+      "name": "MongoDB Community",
+      "url": "https://www.mongodb.com/try/download/community",
+      "license": "SSPL",
+      "docker": {
+        "official": true,
+        "image": "mongo",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["database", "nosql", "document"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "saas_tool": {
+      "name": "Cloudflare DDoS Protection",
+      "url": "https://www.cloudflare.com/ddos-protection/",
+      "description": "DDoS mitigation and web security"
+    },
+    "alternative": {
+      "name": "CrowdSec",
+      "url": "https://crowdsec.net/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "crowdsecurity/crowdsec",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ddos", "security", "ips"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Okta",
+      "url": "https://www.okta.com/",
+      "description": "Identity and access management"
+    },
+    "alternative": {
+      "name": "Authelia",
+      "url": "https://www.authelia.com/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "authelia/authelia",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["sso", "oauth", "authentication"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "1Password Teams",
+      "url": "https://1password.com/teams/",
+      "description": "Team password management"
+    },
+    "alternative": {
+      "name": "Bitwarden",
+      "url": "https://bitwarden.com/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "bitwarden/self-hosted",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["password-manager", "vault", "security"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "VirusTotal",
+      "url": "https://www.virustotal.com/",
+      "description": "Malware analysis and detection"
+    },
+    "alternative": {
+      "name": "ClamAV",
+      "url": "https://www.clamav.net/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": true,
+        "image": "mkodockx/docker-clamav",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["antivirus", "malware", "scanner"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Have I Been Pwned",
+      "url": "https://haveibeenpwned.com/",
+      "description": "Breached database check"
+    },
+    "alternative": {
+      "name": "HIBP Self-Hosted",
+      "url": "https://github.com/nccgroup/hibphonedb",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "nccgroup/hibphonedb",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["security", "breach", "database"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Tenable Vulnerability Management",
+      "url": "https://www.tenable.com/vulnerability-management",
+      "description": "Vulnerability assessment platform"
+    },
+    "alternative": {
+      "name": "OpenVAS",
+      "url": "https://www.greenbone.net/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": true,
+        "image": "mikesmith/openvas",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["vulnerability", "scanner", "security"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "LastPass Teams",
+      "url": "https://www.lastpass.com/teams-password-management",
+      "description": "Team password management"
+    },
+    "alternative": {
+      "name": "Passbolt",
+      "url": "https://www.passbolt.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "passbolt/passbolt",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["password-manager", "vault", "team"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

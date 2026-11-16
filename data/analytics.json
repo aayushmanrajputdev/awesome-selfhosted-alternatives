@@ -1,0 +1,178 @@
+[
+  {
+    "saas_tool": {
+      "name": "Google Analytics",
+      "url": "https://analytics.google.com/",
+      "description": "Web analytics and data visualization"
+    },
+    "alternative": {
+      "name": "Plausible Analytics",
+      "url": "https://plausible.io/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "plausible/analytics",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["analytics", "privacy", "opensource"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Mixpanel",
+      "url": "https://www.mixpanel.com/",
+      "description": "Product analytics and user behavior tracking"
+    },
+    "alternative": {
+      "name": "PostHog",
+      "url": "https://posthog.com/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "posthog/posthog",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["analytics", "product", "events"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Segment",
+      "url": "https://segment.com/",
+      "description": "Customer data platform"
+    },
+    "alternative": {
+      "name": "SurrealDB",
+      "url": "https://surrealdb.com/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "surrealdb/surrealdb",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["database", "analytics", "headless"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Hotjar",
+      "url": "https://www.hotjar.com/",
+      "description": "Heatmaps and user analytics"
+    },
+    "alternative": {
+      "name": "Openreplay",
+      "url": "https://openreplay.com/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "openreplay/analytics",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["heatmaps", "session-recording", "analytics"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Google Analytics 4",
+      "url": "https://analytics.google.com/analytics/web/",
+      "description": "Next-generation Google Analytics"
+    },
+    "alternative": {
+      "name": "Umami",
+      "url": "https://umami.is/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "umami/umami",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["analytics", "privacy", "lightweight"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Amplitude",
+      "url": "https://amplitude.com/",
+      "description": "Product analytics platform"
+    },
+    "alternative": {
+      "name": "Simplesight",
+      "url": "https://github.com/simplesight/simplesight",
+      "license": "MIT",
+      "docker": {
+        "official": false,
+        "image": "simplesight/simplesight",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["analytics", "events", "dashboard"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Heap Analytics",
+      "url": "https://heapanalytics.com/",
+      "description": "Automatic analytics and user behavior tracking"
+    },
+    "alternative": {
+      "name": "Matomo",
+      "url": "https://matomo.org/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "matomo:latest",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["analytics", "privacy", "web"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Chartbeat",
+      "url": "https://chartbeat.com/",
+      "description": "Real-time web analytics"
+    },
+    "alternative": {
+      "name": "GoAccess",
+      "url": "https://goaccess.io/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "goaccess/goaccess",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["log-analysis", "realtime", "web"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

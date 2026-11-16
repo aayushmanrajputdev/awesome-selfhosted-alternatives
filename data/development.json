@@ -1,0 +1,222 @@
+[
+  {
+    "saas_tool": {
+      "name": "GitHub Actions",
+      "url": "https://github.com/features/actions",
+      "description": "Continuous integration and deployment"
+    },
+    "alternative": {
+      "name": "Drone CI",
+      "url": "https://www.drone.io/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "drone/drone-server",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ci/cd", "devops", "automation"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Travis CI",
+      "url": "https://travis-ci.org/",
+      "description": "Continuous integration service"
+    },
+    "alternative": {
+      "name": "Gitea Actions",
+      "url": "https://gitea.com/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "gitea/gitea",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ci/cd", "git", "lightweight"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "CircleCI",
+      "url": "https://circleci.com/",
+      "description": "Cloud-native CI/CD platform"
+    },
+    "alternative": {
+      "name": "Woodpecker CI",
+      "url": "https://woodpecker-ci.org/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "woodpeckerci/woodpecker-server",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ci/cd", "github-actions", "bitbucket"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Heroku CI",
+      "url": "https://www.heroku.com/",
+      "description": "Continuous integration for Heroku apps"
+    },
+    "alternative": {
+      "name": "Buildbot",
+      "url": "https://buildbot.net/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": true,
+        "image": "buildbot/buildbot",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ci/cd", "automation", "custom"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Docker Hub",
+      "url": "https://hub.docker.com/",
+      "description": "Docker container registry"
+    },
+    "alternative": {
+      "name": "Harbor",
+      "url": "https://goharbor.io/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "goharbor/harbor",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["container-registry", "docker", "artifact"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "JFrog Artifactory",
+      "url": "https://jfrog.com/artifactory/",
+      "description": "Binary repository management"
+    },
+    "alternative": {
+      "name": "Sonatype Nexus",
+      "url": "https://www.sonatype.com/products/nexus-repository",
+      "license": "EPL-1.0",
+      "docker": {
+        "official": true,
+        "image": "sonatype/nexus3",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["artifact-repo", "maven", "npm"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "CodeClimate",
+      "url": "https://codeclimate.com/",
+      "description": "Code quality and maintainability analysis"
+    },
+    "alternative": {
+      "name": "CodeClimate Self-Hosted",
+      "url": "https://github.com/codeclimate/platform",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "codeclimate/platform",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["code-quality", "maintenance", "reviews"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Snyk",
+      "url": "https://snyk.io/",
+      "description": "Security monitoring for dependencies"
+    },
+    "alternative": {
+      "name": "OWASP Dependency-Check",
+      "url": "https://owasp.org/www-project-dependency-check/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "owasp/dependency-check",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["security", "vulnerability", "dependencies"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Coveralls",
+      "url": "https://coveralls.io/",
+      "description": "Test coverage reporting"
+    },
+    "alternative": {
+      "name": "Coveralyzer",
+      "url": "https://github.com/adejanovski/coveralyzer",
+      "license": "MIT",
+      "docker": {
+        "official": false,
+        "image": "adejanovski/coveralyzer",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["coverage", "testing", "reports"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "LaunchDarkly",
+      "url": "https://launchdarkly.com/",
+      "description": "Feature flags and experimentation"
+    },
+    "alternative": {
+      "name": "GrowthBook",
+      "url": "https://growthbook.io/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "growthbook/growthbook",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["feature-flags", "a/b-testing", "experimentation"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

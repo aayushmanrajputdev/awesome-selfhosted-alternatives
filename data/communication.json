@@ -1,0 +1,178 @@
+[
+  {
+    "saas_tool": {
+      "name": "Slack",
+      "url": "https://slack.com/",
+      "description": "Team communication and collaboration platform"
+    },
+    "alternative": {
+      "name": "Mattermost",
+      "url": "https://mattermost.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "mattermost/mattermost-enterprise-edition",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["team-communication", "messaging", "slack"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Discord",
+      "url": "https://discord.com/",
+      "description": "Voice, video, and text chat for communities"
+    },
+    "alternative": {
+      "name": "Element",
+      "url": "https://element.io/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "vectorim/element-web",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["chat", "voice", "community"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Zoom",
+      "url": "https://zoom.us/",
+      "description": "Video conferencing and online meetings"
+    },
+    "alternative": {
+      "name": "Jitsi Meet",
+      "url": "https://jitsi.org/meet/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "jitsi/jitsi-meet",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["video-conference", "meetings", "webinar"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Microsoft Teams",
+      "url": "https://www.microsoft.com/microsoft-teams/group-chat-software",
+      "description": "Collaboration platform for teams"
+    },
+    "alternative": {
+      "name": "Rocket.Chat",
+      "url": "https://rocket.chat/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "rocket.chat",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["team-communication", "chat", "video"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Google Meet",
+      "url": "https://meet.google.com/",
+      "description": "Video calling and meetings"
+    },
+    "alternative": {
+      "name": "BigBlueButton",
+      "url": "https://bigbluebutton.org/",
+      "license": "LGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "blitle/bigbluebutton",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["video-conference", "education", "meetings"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Twilio",
+      "url": "https://www.twilio.com/",
+      "description": "Cloud communications platform"
+    },
+    "alternative": {
+      "name": "Kannel",
+      "url": "https://www.kannel.org/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": false,
+        "image": "kannel-org/kannel",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["sms", "messaging", "gpn"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Twilio SendGrid",
+      "url": "https://sendgrid.com/",
+      "description": "Email delivery service"
+    },
+    "alternative": {
+      "name": "MailHog",
+      "url": "https://github.com/mailhog/MailHog",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "mailhog/mailhog",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["email", "smtp", "testing"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Slack Calls",
+      "url": "https://slack.com/features/calls",
+      "description": "Audio/video calling within Slack"
+    },
+    "alternative": {
+      "name": "Jami",
+      "url": "https://jami.net/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "savoirfairelinux/jami",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["voip", "video-call", "peer-to-peer"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

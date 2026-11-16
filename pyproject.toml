@@ -1,0 +1,78 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "selfhosted-cli"
+version = "1.0.0"
+description = "CLI tool for self-hosted alternatives catalog"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "aayushmanrajputdev", email = "aayush@rajput.dev"}
+]
+maintainers = [
+    {name = "aayushmanrajputdev", email = "aayush@rajput.dev"}
+]
+keywords = [
+    "self-hosted",
+    "saas",
+    "alternatives",
+    "cli",
+    "productivity",
+    "dev-tools",
+    "docker"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+]
+requires-python = ">=3.11"
+dependencies = [
+    "tabulate>=0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+    "black>=23.0.0",
+    "mypy>=1.0.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+selfhosted = "cli.selfhosted_cli:main"
+
+[project.urls]
+Homepage = "https://github.com/aayushmanrajputdev/awesome-selfhosted-alternatives"
+Documentation = "https://github.com/aayushmanrajputdev/awesome-selfhosted-alternatives#readme"
+Repository = "https://github.com/aayushmanrajputdev/awesome-selfhosted-alternatives"
+Issues = "https://github.com/aayushmanrajputdev/awesome-selfhosted-alternatives/issues"
+Discussions = "https://github.com/aayushmanrajputdev/awesome-selfhosted-alternatives/discussions"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cli*"]
+
+[tool.black]
+line-length = 88
+target-version = ['py311', 'py312', 'py313']
+include = '\.pyi?$'
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]

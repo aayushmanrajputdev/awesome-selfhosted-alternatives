@@ -1,0 +1,134 @@
+[
+  {
+    "saas_tool": {
+      "name": "QuickBooks Online",
+      "url": "https://quickbooks.intuit.com/",
+      "description": "Online accounting and bookkeeping"
+    },
+    "alternative": {
+      "name": "ERPNext",
+      "url": "https://erpnext.com/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "erpnext/erpnext",
+        "tags": ["version-15-latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["accounting", "erp", "finance"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Xero",
+      "url": "https://www.xero.com/",
+      "description": "Cloud-based accounting software"
+    },
+    "alternative": {
+      "name": "Dolibarr",
+      "url": "https://www.dolibarr.org/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "dolibarr/dolibarr",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["accounting", "erp", "crm"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Stripe Dashboard",
+      "url": "https://dashboard.stripe.com/",
+      "description": "Payment processing and billing"
+    },
+    "alternative": {
+      "name": "Saleor",
+      "url": "https://saleor.io/",
+      "license": "BSD-3-Clause",
+      "docker": {
+        "official": false,
+        "image": "saleor/saleor",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ecommerce", "payment", "graphql"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "PayPal Business",
+      "url": "https://www.paypal.com/business/",
+      "description": "Online payment processing"
+    },
+    "alternative": {
+      "name": "WooCommerce Payments",
+      "url": "https://woocommerce.com/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "wordpress:6.4-apache",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["ecommerce", "payment", "wordpress"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "FreshBooks",
+      "url": "https://www.freshbooks.com/",
+      "description": "Invoicing and accounting software"
+    },
+    "alternative": {
+      "name": "Invoice Ninja",
+      "url": "https://www.invoiceninja.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "invoice Ninja/invoice-ninja",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["invoicing", "billing", "freelance"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Zoho Books",
+      "url": "https://www.zoho.com/in/books/",
+      "description": "Online accounting software"
+    },
+    "alternative": {
+      "name": "SQLLedger",
+      "url": "https://www.sqledger.com/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": false,
+        "image": "sqledger/sqledger",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["accounting", "double-entry", "ledger"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

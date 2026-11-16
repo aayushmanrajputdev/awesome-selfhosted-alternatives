@@ -1,0 +1,211 @@
+[
+  {
+    "saas_tool": {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "All-in-one workspace for notes, databases, wikis, and project management"
+    },
+    "alternative": {
+      "name": "Logseq",
+      "url": "https://logseq.com/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "logseq/logseq",
+        "tags": ["latest", "stable"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["note-taking", "knowledge-base", "outliner", "graph-view"],
+      "key_features": [
+        "Local-first, encrypted notebooks",
+        "Outliner + graph view",
+        "Markdown + Clojure scripting",
+        "Block references and backlinks",
+        "Offline access everywhere"
+      ]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "All-in-one workspace for notes, databases, wikis, and project management"
+    },
+    "alternative": {
+      "name": "Outline",
+      "url": "https://outline.tools/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "outline/outline",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["wiki", "knowledge-base", "team-collaboration"],
+      "key_features": [
+        "Slack/GChat integration",
+        "Page history and versioning",
+        "Real-time collaboration",
+        "Markdown support",
+        "API access"
+      ]
+    },
+    "added_date": "2024-01-16",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Notion",
+      "url": "https://www.notion.so/",
+      "description": "All-in-one workspace for notes, databases, wikis, and project management"
+    },
+    "alternative": {
+      "name": "AppFlowy",
+      "url": "https://appflowy.io/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "appflowyio/appflowy-desktop",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["note-taking", "workspace", "rust"],
+      "key_features": [
+        "Built with Rust for performance",
+        "Notion-like interface",
+        "Local data storage",
+        "Open-source roadmap"
+      ]
+    },
+    "added_date": "2024-01-17",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Todoist",
+      "url": "https://todoist.com/",
+      "description": "Task management and to-do list application"
+    },
+    "alternative": {
+      "name": "Wekan",
+      "url": "https://wekan.github.io/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "wekan/wekan",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["task-management", "kanban", "trello"],
+      "key_features": [
+        "Trello-like Kanban boards",
+        "Task lists and checklists",
+        "Due dates and reminders",
+        "Custom fields",
+        "Mobile apps"
+      ]
+    },
+    "added_date": "2024-01-21",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Trello",
+      "url": "https://trello.com/",
+      "description": "Visual project management with boards, lists, and cards"
+    },
+    "alternative": {
+      "name": "Wekan",
+      "url": "https://wekan.github.io/",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "wekan/wekan",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["kanban", "project-management", "boards"],
+      "key_features": [
+        "Trello-like interface",
+        "Card attachments",
+        "Power-ups support",
+        "Swimlanes",
+        "Customizable cards"
+      ]
+    },
+    "added_date": "2024-01-22",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Grammarly",
+      "url": "https://grammarly.com/",
+      "description": "AI-powered grammar and spelling checker"
+    },
+    "alternative": {
+      "name": "LanguageTool",
+      "url": "https://languagetool.org/",
+      "license": "LGPL-2.1",
+      "docker": {
+        "official": true,
+        "image": "languagetool/languagetool",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["grammar", "spelling", "proofreading"],
+      "key_features": [
+        "Support for 25+ languages",
+        "Custom rules with XML",
+        "REST API available",
+        "Privacy-focused",
+        "Extensible dictionaries"
+      ]
+    },
+    "added_date": "2024-01-18",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  },
+  {
+    "saas_tool": {
+      "name": "Google Calendar",
+      "url": "https://calendar.google.com/",
+      "description": "Time management and scheduling calendar"
+    },
+    "alternative": {
+      "name": "Nextcloud Calendar",
+      "url": "https://nextcloud.com/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "nextcloud",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["calendar", "scheduling", "caldav"],
+      "key_features": [
+        "CalDAV/CardDAV support",
+        "Shared calendars",
+        "Mobile sync",
+        "Recurring events",
+        "Attachments"
+      ]
+    },
+    "added_date": "2024-01-20",
+    "contributor": "aayushmanrajputdev",
+    "confidence": "high"
+  }
+]

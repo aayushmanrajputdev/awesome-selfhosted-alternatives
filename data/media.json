@@ -1,0 +1,156 @@
+[
+  {
+    "saas_tool": {
+      "name": "Spotify",
+      "url": "https://www.spotify.com/",
+      "description": "Music streaming service"
+    },
+    "alternative": {
+      "name": " Funkwhale",
+      "url": "https://funkwhale.audio/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "docker.io/funkwhale/funkwhale",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["music", "streaming", "p2p"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Netflix",
+      "url": "https://www.netflix.com/",
+      "description": "Video streaming service"
+    },
+    "alternative": {
+      "name": "Jellyfin",
+      "url": "https://jellyfin.org/",
+      "license": "GPL-2.0",
+      "docker": {
+        "official": true,
+        "image": "jellyfin/jellyfin",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["media-server", "video", "streaming"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "YouTube",
+      "url": "https://www.youtube.com/",
+      "description": "Video sharing platform"
+    },
+    "alternative": {
+      "name": "PeerTube",
+      "url": "https://joinpeertube.org/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "chocobozzz/peertube",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["video", "decentralized", "streaming"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Apple Music",
+      "url": "https://music.apple.com/",
+      "description": "Apple's music streaming service"
+    },
+    "alternative": {
+      "name": "Navidrome",
+      "url": "https://www.navidrome.org/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "deluan/navidrome",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["music", "scrobbler", "streaming"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "SoundCloud",
+      "url": "https://soundcloud.com/",
+      "description": "Online audio distribution platform"
+    },
+    "alternative": {
+      "name": "Azuka",
+      "url": "https://github.com/azuka/azuka",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "azuka/azuka",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["audio", "music", "streaming"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Twitch",
+      "url": "https://www.twitch.tv/",
+      "description": "Live streaming platform for gamers"
+    },
+    "alternative": {
+      "name": "PeerTube",
+      "url": "https://joinpeertube.org/",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "chocobozzz/peertube",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["streaming", "video", "live"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Podbean",
+      "url": "https://www.podbean.com/",
+      "description": "Podcast hosting platform"
+    },
+    "alternative": {
+      "name": "Podcast Generator",
+      "url": "https://podcastgen.sourceforge.io/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "podcastgen/podcastgen",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["podcast", "rss", "audio"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

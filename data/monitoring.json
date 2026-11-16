@@ -1,0 +1,156 @@
+[
+  {
+    "saas_tool": {
+      "name": "UptimeRobot",
+      "url": "https://uptimerobot.com/",
+      "description": "Website monitoring and uptime tracking"
+    },
+    "alternative": {
+      "name": "Uptime Kuma",
+      "url": "https://github.com/louislam/uptime-kuma",
+      "license": "MIT",
+      "docker": {
+        "official": true,
+        "image": "louislam/uptime-kuma",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["uptime", "monitoring", "prometheus"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Datadog",
+      "url": "https://www.datadoghq.com/",
+      "description": "Infrastructure and application monitoring"
+    },
+    "alternative": {
+      "name": "Prometheus",
+      "url": "https://prometheus.io/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "prom/prometheus",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["monitoring", "metrics", "timeseries"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Sentry",
+      "url": "https://sentry.io/",
+      "description": "Error tracking and performance monitoring"
+    },
+    "alternative": {
+      "name": "OpenReplay",
+      "url": "https://openreplay.com/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "openreplay/analytics",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["error-tracking", "apm", "session-recording"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "New Relic",
+      "url": "https://newrelic.com/",
+      "description": "Full-stack observability platform"
+    },
+    "alternative": {
+      "name": "SigNoz",
+      "url": "https://signoz.io/",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "signoz/signoz",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["apm", "monitoring", "distributed-tracing"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "Pingdom",
+      "url": "https://www.pingdom.com/",
+      "description": "Website monitoring and performance"
+    },
+    "alternative": {
+      "name": "Checkmk",
+      "url": "https://checkmk.com/",
+      "license": "GPL-3.0",
+      "docker": {
+        "official": true,
+        "image": "checkmk/checkmk",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": true,
+      "category_tags": ["monitoring", "infrastructure", "nagios"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "StatusCake",
+      "url": "https://statuscake.com/",
+      "description": "Website uptime monitoring"
+    },
+    "alternative": {
+      "name": "Blackbox Exporter",
+      "url": "https://github.com/prometheus/blackbox_exporter",
+      "license": "Apache-2.0",
+      "docker": {
+        "official": true,
+        "image": "prom/blackbox-exporter",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["monitoring", "http", "icmp"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  },
+  {
+    "saas_tool": {
+      "name": "LogRocket",
+      "url": "https://logrocket.com/",
+      "description": "Session replay and session analysis"
+    },
+    "alternative": {
+      "name": "Soapbox",
+      "url": "https://github.com/getsoapbox/soapbox",
+      "license": "AGPL-3.0",
+      "docker": {
+        "official": false,
+        "image": "soapbox/soapbox",
+        "tags": ["latest"]
+      },
+      "self_hosted": true,
+      "cloud_variants": false,
+      "category_tags": ["session-replay", "video", "analytics"]
+    },
+    "added_date": "2024-01-15",
+    "contributor": "aayushmanrajputdev"
+  }
+]

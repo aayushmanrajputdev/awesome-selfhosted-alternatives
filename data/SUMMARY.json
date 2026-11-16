@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-11-16T10:21:27.036378",
+  "categories": [
+    "analytics",
+    "communication",
+    "development",
+    "finance",
+    "media",
+    "monitoring",
+    "productivity",
+    "security",
+    "storage"
+  ],
+  "total_entries": 68,
+  "entries_per_category": {
+    "analytics": 8,
+    "communication": 8,
+    "development": 10,
+    "finance": 6,
+    "media": 7,
+    "monitoring": 7,
+    "productivity": 7,
+    "security": 7,
+    "storage": 8
+  }
+}
