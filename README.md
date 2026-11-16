@@ -1,7 +1,7 @@
 # awesome-selfhosted-alternatives
 
-> **The world's most comprehensive directory of self-hosted alternatives to popular SaaS tools** 🏠  
-> Replace expensive subscriptions with free, open-source self-hosted solutions. 10,000+ developers trust this growing catalog.
+> **A curated directory of self-hosted alternatives to popular SaaS tools** 🏠  
+> Replace expensive subscriptions with free, open-source self-hosted solutions. Developers trust this growing catalog.
 
 ## 🤯 Why This Exists
 
@@ -16,15 +16,15 @@ Software-as-a-Service subscriptions are bleeding your wallet.
 
 <table align="center">
 <tr>
-<td><strong>1,200+</strong></td>
+<td><strong>68+</strong></td>
 <td style="text-align: left"><strong>SaaS Tools</strong> with verified alternatives</td>
 </tr>
 <tr>
-<td><strong>3,500+</strong></td>
+<td><strong>68+</strong></td>
 <td style="text-align: left"><strong>Open-Source Projects</strong> catalogued</td>
 </tr>
 <tr>
-<td><strong>85+</strong></td>
+<td><strong>1</strong></td>
 <td style="text-align: left"><strong>Developer Contributors</strong> improving the list</td>
 </tr>
 </table>
@@ -53,12 +53,15 @@ Use the [📚 Catalog](./docs/) to explore alternatives:
 
 | Category | Tools |
 |----------|-------|
-| [Productivity](./docs/productivity.md) | Notion, Todoist, Grammarly, Calendly |
-| [Communication](./docs/communication.md) | Slack, Discord, Zoom, Teams |
-| [Analytics](./docs/analytics.md) | Google Analytics, Mixpanel, PostHog |
-| [Monitoring](./docs/monitoring.md) | UptimeRobot, Datadog, Sentry |
-| [Storage](./docs/storage.md) | Dropbox, Google Drive, OneDrive |
-| [Media](./docs/media.md) | Spotify, YouTube, Netflix |
+| [Productivity](./docs/productivity.md) | 7 alternatives |
+| [Communication](./docs/communication.md) | 8 alternatives |
+| [Analytics](./docs/analytics.md) | 8 alternatives |
+| [Monitoring](./docs/monitoring.md) | 7 alternatives |
+| [Storage](./docs/storage.md) | 8 alternatives |
+| [Media](./docs/media.md) | 7 alternatives |
+| [Development](./docs/development.md) | 10 alternatives |
+| [Security](./docs/security.md) | 7 alternatives |
+| [Finance](./docs/finance.md) | 6 alternatives |
 
 ## 🛠️ Installation & Self-Hosting
 
